@@ -1,3 +1,11 @@
+/**
+ * Factory Method Pattern
+ * Pros:
+ * - Tách biệt được logic khởi tạo đối tượng với logic sử dụng đối tượng (tránh được việc code bị coupling)
+ * - Dễ dàng mở rộng thêm các đối tượng mới
+ * - Code dễ đọc dễ bảo trì, khi cần thay đổi chỉ cần chỉnh sửa 1 file
+ */
+
 interface FootballPlayer {
     name: string;
     number: number;
